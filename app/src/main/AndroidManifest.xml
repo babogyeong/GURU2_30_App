@@ -13,6 +13,9 @@
         android:theme="@style/Theme.GURU2_30_App"
         tools:targetApi="31">
         <activity
+            android:name=".Splash05"
+            android:exported="false" />
+        <activity
             android:name=".Splash03"
             android:exported="false" />
         <activity
