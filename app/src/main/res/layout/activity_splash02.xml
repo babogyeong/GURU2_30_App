@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btn02"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Splash02">
@@ -36,17 +37,17 @@
         tools:layout_editor_absoluteY="69dp" />
 
     <ImageButton
-        android:id="@+id/myImageButton"
+        android:id="@+id/btn01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
         android:layout_centerInParent="true"
+        android:layout_margin="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Image Button Description"
+        android:padding="16dp"
         android:src="@drawable/Group17"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:contentDescription="Image Button Description"
-        android:padding="16dp"
-        android:layout_margin="8dp"
 
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteY="624dp" />
