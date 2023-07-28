@@ -39,17 +39,17 @@
         android:id="@+id/btn02"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_margin="8dp"
         android:background="@android:color/transparent"
-        android:contentDescription="Image Button Description"
-        android:padding="16dp"
+        android:layout_centerInParent="true"
         android:src="@drawable/Group17"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="Image Button Description"
+        android:padding="16dp"
+        android:layout_margin="8dp"
 
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="621dp" />
+        tools:layout_editor_absoluteY="624dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
