@@ -12,7 +12,7 @@ class Splash05 : AppCompatActivity() {
 
         findViewById<View>(R.id.StartButton).setOnClickListener {
             // 다른 화면으로 전환하기 위한 Intent 생성
-            val intent = Intent(this@Splash05, main::class.java)
+            val intent = Intent(this@Splash05, Splash04::class.java)
             startActivity(intent)
         }
     }

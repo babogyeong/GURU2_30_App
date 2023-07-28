@@ -1,8 +1,5 @@
 package com.example.guru2_30_app
 
-import android.annotation.SuppressLint
-
-import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.content.Intent;
@@ -10,7 +7,7 @@ import android.view.View;
 
 
 class Splash04 : AppCompatActivity() {
-    @SuppressLint("MissingInflatedId")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash04)
