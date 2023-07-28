@@ -16,6 +16,12 @@
             android:name=".Splash05"
             android:exported="false" />
         <activity
+            android:name=".Splash05"
+            android:exported="false" />
+        <activity
+            android:name=".Splash04"
+            android:exported="false" />
+        <activity
             android:name=".Splash03"
             android:exported="false" />
         <activity
