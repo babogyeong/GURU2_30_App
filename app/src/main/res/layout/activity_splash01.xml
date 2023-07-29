@@ -8,6 +8,7 @@
 
 
     <ImageView
+        android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
@@ -39,17 +40,17 @@
         android:id="@+id/btn01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
         android:layout_centerInParent="true"
-        android:src="@drawable/splash01_group75"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="8dp"
+        android:background="@android:color/transparent"
         android:contentDescription="Image Button Description"
         android:padding="16dp"
-        android:layout_margin="8dp"
 
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="624dp" />
+        android:src="@drawable/splash01_group75"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
