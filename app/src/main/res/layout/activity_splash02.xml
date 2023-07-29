@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:layout_centerInParent="true"
-        android:src="@drawable/spash02_group17"
+        android:src="@drawable/splash02_group17"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:contentDescription="Image Button Description"
