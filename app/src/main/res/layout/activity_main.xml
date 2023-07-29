@@ -79,7 +79,7 @@
         android:layout_gravity="start"
         android:layout_marginStart="7dp"
         android:layout_marginTop="112dp"
-        android:background="@drawable/Sidebar_Rectangle22"
+        android:background="@drawable/sidebar_rectangle22"
         android:orientation="vertical"
         android:visibility="gone"
         app:layout_constraintEnd_toStartOf="@+id/imageView3"
