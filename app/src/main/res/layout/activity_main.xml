@@ -41,6 +41,7 @@
         app:layout_constraintGuide_percent="0.8" />
 
     <ImageView
+        android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="112dp"
@@ -70,36 +71,34 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageButton
-        android:id="@+id/btn05"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_margin="8dp"
-        android:background="@android:color/transparent"
-        android:contentDescription="Image Button Description"
-        android:padding="16dp"
-        android:src="@drawable/Main_Group68"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.85"
-
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="625dp" />
-
+    <!-- 사이드바 레이아웃 -->
     <LinearLayout
+        android:id="@+id/sidebarLayout"
         android:layout_width="249dp"
-        android:layout_height="669dp"
+        android:layout_height="match_parent"
         android:layout_gravity="start"
+        android:layout_marginStart="7dp"
         android:layout_marginTop="112dp"
         android:background="@drawable/Sidebar_Rectangle22"
         android:orientation="vertical"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="7dp">
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <!-- 사이드바 내용 이 밑으로 쓰기 -->
+    <!-- 사이드바 내용 이 밑으로 쓰기 -->
 
 
-    </LinearLayout>
+</LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
