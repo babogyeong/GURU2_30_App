@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GURU2_30_App</string>
+    <string name="button_description">버튼을 누르면 사이드바가 열립니다</string>
 </resources>
