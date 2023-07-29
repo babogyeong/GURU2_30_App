@@ -23,7 +23,7 @@
         </activity>
 
         <activity
-            android:name=".Loading02"
+            android:name=".LoadOn"
             android:exported="false"/>
 
         <activity

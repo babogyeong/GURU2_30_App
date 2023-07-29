@@ -20,4 +20,5 @@ class LoadOn : AppCompatActivity() {
             finish()
         }, delayMillis)
     }
+}
 
