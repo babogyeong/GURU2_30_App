@@ -44,7 +44,7 @@
         android:id="@+id/myTextView"
         android:layout_width="359dp"
         android:layout_height="541dp"
-        android:text="Tell me anything..."
+        android:hint="Tell me anything..."
         android:textColor="#80bdbcbc"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
