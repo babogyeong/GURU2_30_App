@@ -24,6 +24,7 @@ class NoteActivity : AppCompatActivity() {
     lateinit var edtTome: EditText
 
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_note)

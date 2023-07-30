@@ -49,5 +49,109 @@
     <!-- 여기까지 재활용 가능한 윗줄 고정라인입니다. -->
 
     <!-- 여기는 png파일 가져오기가 까다로워 직접 구현함 textcolor참고 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:text="날짜"/>
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 
+    <!--주제 가져오기 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:text="주제"/>
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <!-- 함께한 사람 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:text="함께한 사람"/>
+        <EditText
+            android:id="@+id/person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <!--장소 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:text="장소"/>
+        <EditText
+            android:id="@+id/place"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <!--기억에 남는 일 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:text="기억에 남는 일"/>
+        <EditText
+            android:id="@+id/issue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <!--나의 기분 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:text="나의 기분"/>
+        <EditText
+            android:id="@+id/feel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <!--나에게 한마디 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:text="나에게 한마디"/>
+        <EditText
+            android:id="@+id/tome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
