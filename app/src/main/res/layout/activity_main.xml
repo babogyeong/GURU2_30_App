@@ -38,7 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.8" />
+        app:layout_constraintGuide_begin="527dp" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -64,7 +64,7 @@
 
     <!--버튼 삽입 -->
 
-    <!-- 사이드바 레이아웃 -->
+
 
     <ImageView
         android:layout_width="wrap_content"
@@ -109,6 +109,46 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <!-- 사이드바 내용 이 밑으로 쓰기 -->
+        <ImageButton
+            android:id="@+id/languageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/sidebar_language"
+            android:background="@android:color/transparent"
+            android:onClick="onLanguageButtonClick"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <!-- 영어 이미지 버튼 -->
+        <ImageButton
+            android:id="@+id/englishButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/sidebar_english"
+            android:background="@android:color/transparent"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/languageButton" />
+
+        <!-- 한국어 이미지 버튼 -->
+        <ImageButton
+            android:id="@+id/koreanButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/sidebar_korean"
+            android:background="@android:color/transparent"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/englishButton" />
+
 
 
     </LinearLayout>
