@@ -1,5 +1,6 @@
 package com.example.guru2_30_app
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -24,6 +25,11 @@ class MainActivity : AppCompatActivity() {
             } else {
                 sidebarLayout.visibility = View.VISIBLE
             }
+        }
+
+        findViewById<View>(R.id.mainBtn).setOnClickListener{
+            val intent = Intent(this@MainActivity, NoteActivity::class.java)
+            startActivity(intent)
         }
     }
 }

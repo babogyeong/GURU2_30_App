@@ -62,7 +62,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    //버튼 삽입
+    <!--버튼 삽입 -->
 
     <!-- 사이드바 레이아웃 -->
 
